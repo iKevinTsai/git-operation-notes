@@ -13,3 +13,10 @@ git add .
 #撤銷
 git reset
 ```
+建立分支
+```Bash
+$ git branch develop
+$ git checkout develop
+#或者
+git checkout -b develop
+```
