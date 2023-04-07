@@ -27,7 +27,7 @@ git log
 #遠端
 git log--oneline
 ```
-從develop開一個 ‘release’分支
+從develop開一個 "release"分支並合併至master
 ```Bash
 #目前分支是develop
 git checkout -b release
