@@ -27,3 +27,15 @@ git log
 #遠端
 git log--oneline
 ```
+從develop開一個 ‘release’分支
+```Bash
+#目前分支是develop
+git checkout -b release
+#切換至Master分支
+git checkout master
+#合併release
+git merge release
+#給予版本號(會把開一個文字檔案，寫備註)
+git tag -a "v0.1"
+git push -u origin master
+```
