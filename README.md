@@ -1,2 +1,9 @@
 # git-operation-notes
-git操作筆記
+查看分支
+```Bash
+#本地端
+git branch
+#遠端
+git branch -r
+```
+
