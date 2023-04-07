@@ -20,3 +20,10 @@ $ git checkout develop
 #或者
 git checkout -b develop
 ```
+Commit 紀錄
+```Bash
+#本地端
+git log
+#遠端
+git log--oneline
+```
