@@ -37,5 +37,7 @@ git checkout master
 git merge release
 #給予版本號(會把開一個文字檔案，寫備註)
 git tag -a "v0.1"
+#刪除release
+git branch -d release
 git push -u origin master
 ```
