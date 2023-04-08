@@ -1,4 +1,4 @@
-如何建立新的branc
+如何建立新的branch
 ```Bash
 git branch develop
 git checkout develop
