@@ -2,6 +2,7 @@
 ```Bash
 #查看遠端所有分支
 git branch -r
+git fetch origin develop
 #切換分支
 git checkout origin develop
 git pull
