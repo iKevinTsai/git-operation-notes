@@ -41,3 +41,10 @@ git tag -a "v0.1"
 git branch -d release
 git push -u origin master
 ```
+推不上去怎麼辦
+```Bash
+#方法一:先拉再推
+git pull --rebase
+#方法二:無敵，蓋就對了
+git push -f
+```
